@@ -7,6 +7,19 @@
 - Are cards all the same suite 
 - Are cards values consecutive
 
+#### Get highest value
+Lookup card values in object and get highest value one (Sort and pick highest)
+
+#### How many cards of the same value?
+2D array with the list of found cards and how many times they have come up  
+Check through and remove anything from the array that only shows up once
+
+#### Are all cards the same suite
+Itterate through suite values and as soon as one doesnt match throw error
+
+#### Are card values consecutive
+Use lookup obj and sort list (Starting with ace) then itterate through and throw error if one of the cards has skipped a number (Remeber ace can be also at end)
+
 ### Ways to win
 - [x] Highest value
 - [x] One pair
