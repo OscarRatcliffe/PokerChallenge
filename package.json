@@ -7,5 +7,8 @@
     "test": "ts-node src/main.ts"
   },
   "author": "Oscar Ratcliffe",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6"
+  }
 }

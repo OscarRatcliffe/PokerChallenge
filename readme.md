@@ -33,6 +33,7 @@ Use lookup obj and sorted list then itterate through and throw error if one of t
 - [x] Royal flush - Will trigger Flush first
 
 ## Logic plan   
+- Create 3D array containing each game, players hand and then each card
 - Sort array first by suite and then by number (Start with ace at front)
 - Are all the cards the same suite? 
 - Are the cards values consecutive?
