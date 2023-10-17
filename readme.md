@@ -8,17 +8,17 @@
 - Are cards values consecutive
 
 #### Get highest value
-Lookup card values in object and get highest value one (Sort and pick highest)
+Lookup card values in object and get highest value one - pick last in sorted list
 
 #### How many cards of the same value?
 2D array with the list of found cards and how many times they have come up  
 Check through and remove anything from the array that only shows up once
 
 #### Are all cards the same suite
-Itterate through suite values and as soon as one doesnt match throw error
+Check value of 1st and 5th card and see if they are same suite
 
 #### Are card values consecutive
-Use lookup obj and sort list (Starting with ace) then itterate through and throw error if one of the cards has skipped a number (Remeber ace can be also at end)
+Use lookup obj and sorted list then itterate through and throw error if one of the cards has skipped a number (Then check for aces at end)
 
 ### Ways to win
 - [x] Highest value
@@ -33,6 +33,7 @@ Use lookup obj and sort list (Starting with ace) then itterate through and throw
 - [x] Royal flush - Will trigger Flush first
 
 ## Logic plan   
+- Sort array first by suite and then by number (Start with ace at front)
 - Are all the cards the same suite? 
 - Are the cards values consecutive?
 - Are at least 2 of the cards the same value?   
